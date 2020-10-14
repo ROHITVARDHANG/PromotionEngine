@@ -37,7 +37,7 @@
             this.numericC = new System.Windows.Forms.NumericUpDown();
             this.numericD = new System.Windows.Forms.NumericUpDown();
             this.btnCalculate = new System.Windows.Forms.Button();
-            this.lblResult = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.numericA)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericB)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericC)).BeginInit();
@@ -118,20 +118,20 @@
             this.btnCalculate.UseVisualStyleBackColor = true;
             this.btnCalculate.Click += new System.EventHandler(this.btnCalculate_Click);
             // 
-            // lblResult
+            // label1
             // 
-            this.lblResult.AutoSize = true;
-            this.lblResult.Location = new System.Drawing.Point(165, 315);
-            this.lblResult.Name = "lblResult";
-            this.lblResult.Size = new System.Drawing.Size(0, 17);
-            this.lblResult.TabIndex = 9;
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(165, 315);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(0, 17);
+            this.label1.TabIndex = 9;
             // 
             // PromEngineUI
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.lblResult);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.btnCalculate);
             this.Controls.Add(this.numericD);
             this.Controls.Add(this.numericC);
@@ -163,7 +163,7 @@
         private System.Windows.Forms.NumericUpDown numericC;
         private System.Windows.Forms.NumericUpDown numericD;
         private System.Windows.Forms.Button btnCalculate;
-        private System.Windows.Forms.Label lblResult;
+        private System.Windows.Forms.Label label1;
     }
 }
 
