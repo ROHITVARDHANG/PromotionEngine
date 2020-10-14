@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using PromotionEngine.Service.BusinessLogic;
 using PromotionEngine.Service.Interfaces;
 using PromotionEngine.Service.Models;
 
@@ -26,6 +27,15 @@ namespace PromotionEngine.UnitTests
                 promB,
                 promC,
                 promD
+            };
+
+            _costCalculationService = new CostCalculationService();
+
+            _promotions = new List<IPromotion>
+            {
+                new PromotionBulkService(new PromotionBulk("A", 3, 130)),
+                new PromotionBulkService(new PromotionBulk("B", 2, 45)),
+                new PromotionDuoService(new PromotionDuo(new List<string>{"C","D"}, 30))
             };
         }
 

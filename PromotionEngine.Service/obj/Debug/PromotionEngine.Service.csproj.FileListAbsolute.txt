@@ -4,3 +4,4 @@ C:\Users\INROGUN\source\repos\PromotionEngine\PromotionEngine.Service\obj\Debug\
 C:\Users\INROGUN\source\repos\PromotionEngine\PromotionEngine.Service\bin\Debug\PromotionEngine.Service.dll.config
 C:\Users\INROGUN\source\repos\PromotionEngine\PromotionEngine.Service\bin\Debug\PromotionEngine.Service.dll
 C:\Users\INROGUN\source\repos\PromotionEngine\PromotionEngine.Service\obj\Debug\PromotionEngine.Service.dll
+C:\Users\INROGUN\source\repos\PromotionEngine\PromotionEngine.Service\obj\Debug\PromotionEngine.Service.csprojAssemblyReference.cache
