@@ -39,8 +39,8 @@ namespace PromotionEngine.UnitTests
                 new PromotionDuoService(new PromotionDuo(new List<string>{"C","D"}, 30))
             };
         }
-
-        // Test case for selecting 0 items in A and or not selecting any items
+        
+        // Test case for selecting 0 items in all and or not selecting any items
         [TestMethod]
         public void NoSelectedItemsTest()
         {
@@ -71,7 +71,6 @@ namespace PromotionEngine.UnitTests
                  new Item(_products[0], 1),
                  new Item(_products[1], 1),
                  new Item(_products[2], 1),
-
             };
 
             // Act
@@ -79,21 +78,6 @@ namespace PromotionEngine.UnitTests
 
             // Assert
             Assert.AreEqual(100, total);
-        }
-
-        [TestMethod]
-        public void WithoutPromotionsTest()
-        {
-            //Arrange
-            var items = new List<Item>()
-            {
-                new Item(_products[2], 1)
-            };
-
-            //Act
-
-            //Assert
-
         }
 
         // SCENARIO B
