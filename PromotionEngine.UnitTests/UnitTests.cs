@@ -71,7 +71,7 @@ namespace PromotionEngine.UnitTests
                  new Item(_products[0], 1),
                  new Item(_products[1], 1),
                  new Item(_products[2], 1),
-                
+
             };
 
             // Act
@@ -104,8 +104,8 @@ namespace PromotionEngine.UnitTests
             var items = new List<Item>()
             {
                new Item(_products[0], 5),
-                 new Item(_products[1], 5),
-                 new Item(_products[2], 1),
+               new Item(_products[1], 5),
+               new Item(_products[2], 1),
             };
 
             // Act
@@ -115,18 +115,24 @@ namespace PromotionEngine.UnitTests
             Assert.AreEqual(370, total);
         }
 
+        // SCENARIO C
         [TestMethod]
         public void DuoPromotionTest()
         {
             // Arrange
             var items = new List<Item>()
             {
-                new Item(_products[2], 1)
+               new Item(_products[0], 3),
+               new Item(_products[1], 5),
+               new Item(_products[2], 1),
+               new Item(_products[3], 1),
             };
 
-            //Act
+            // Act
+            var total = _costCalculationService.FetchTotal(items, _promotions);
 
-            //Assert
+            // Assert
+            Assert.AreEqual(280, total);
         }
     }
 }
