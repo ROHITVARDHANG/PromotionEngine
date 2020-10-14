@@ -10,9 +10,9 @@ namespace PromotionEngine.Service.Models
     {
 		public ProductDTO Product { get; set; }
 
-		public int Quantity { get; set; }
+		public decimal Quantity { get; set; }
 
-		public Item(ProductDTO product, int quantity)
+		public Item(ProductDTO product, decimal quantity)
 		{
 			Product = product;
 			Quantity = quantity;

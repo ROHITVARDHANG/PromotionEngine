@@ -8,3 +8,7 @@ C:\Users\INROGUN\source\repos\PromotionEngine\PromotionEngineUI\obj\Debug\Promot
 C:\Users\INROGUN\source\repos\PromotionEngine\PromotionEngineUI\obj\Debug\PromotionEngine.UI.exe
 C:\Users\INROGUN\source\repos\PromotionEngine\PromotionEngineUI\obj\Debug\PromotionEngine.UI.pdb
 C:\Users\INROGUN\source\repos\PromotionEngine\PromotionEngineUI\obj\Debug\PromotionEngine.UI.csprojAssemblyReference.cache
+C:\Users\INROGUN\source\repos\PromotionEngine\PromotionEngineUI\bin\Debug\PromotionEngine.Service.dll
+C:\Users\INROGUN\source\repos\PromotionEngine\PromotionEngineUI\bin\Debug\PromotionEngine.Service.pdb
+C:\Users\INROGUN\source\repos\PromotionEngine\PromotionEngineUI\bin\Debug\PromotionEngine.Service.dll.config
+C:\Users\INROGUN\source\repos\PromotionEngine\PromotionEngineUI\obj\Debug\PromotionEngine.UI.csproj.CopyComplete
