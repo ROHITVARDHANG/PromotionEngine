@@ -38,6 +38,7 @@
             this.numericD = new System.Windows.Forms.NumericUpDown();
             this.btnCalculate = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
+            this.lblMessage = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.numericA)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericB)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericC)).BeginInit();
@@ -126,11 +127,21 @@
             this.label1.Size = new System.Drawing.Size(0, 17);
             this.label1.TabIndex = 9;
             // 
+            // lblMessage
+            // 
+            this.lblMessage.AutoSize = true;
+            this.lblMessage.Location = new System.Drawing.Point(1, 315);
+            this.lblMessage.Name = "lblMessage";
+            this.lblMessage.Size = new System.Drawing.Size(158, 17);
+            this.lblMessage.TabIndex = 10;
+            this.lblMessage.Text = "The Total Order Value :";
+            // 
             // PromEngineUI
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.lblMessage);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnCalculate);
             this.Controls.Add(this.numericD);
@@ -164,6 +175,7 @@
         private System.Windows.Forms.NumericUpDown numericD;
         private System.Windows.Forms.Button btnCalculate;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lblMessage;
     }
 }
 
