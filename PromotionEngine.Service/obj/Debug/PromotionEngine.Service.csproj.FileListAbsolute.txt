@@ -1,0 +1,7 @@
+C:\Users\INROGUN\source\repos\PromotionEngine\PromotionEngine.Service\bin\Debug\PromotionEngine.Service.exe.config
+C:\Users\INROGUN\source\repos\PromotionEngine\PromotionEngine.Service\bin\Debug\PromotionEngine.Service.exe
+C:\Users\INROGUN\source\repos\PromotionEngine\PromotionEngine.Service\bin\Debug\PromotionEngine.Service.pdb
+C:\Users\INROGUN\source\repos\PromotionEngine\PromotionEngine.Service\obj\Debug\PromotionEngine.Service.csprojAssemblyReference.cache
+C:\Users\INROGUN\source\repos\PromotionEngine\PromotionEngine.Service\obj\Debug\PromotionEngine.Service.csproj.CoreCompileInputs.cache
+C:\Users\INROGUN\source\repos\PromotionEngine\PromotionEngine.Service\obj\Debug\PromotionEngine.Service.exe
+C:\Users\INROGUN\source\repos\PromotionEngine\PromotionEngine.Service\obj\Debug\PromotionEngine.Service.pdb

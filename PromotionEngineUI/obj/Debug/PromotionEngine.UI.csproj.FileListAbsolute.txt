@@ -1,0 +1,9 @@
+C:\Users\INROGUN\source\repos\PromotionEngine\PromotionEngineUI\bin\Debug\PromotionEngine.UI.exe.config
+C:\Users\INROGUN\source\repos\PromotionEngine\PromotionEngineUI\bin\Debug\PromotionEngine.UI.exe
+C:\Users\INROGUN\source\repos\PromotionEngine\PromotionEngineUI\bin\Debug\PromotionEngine.UI.pdb
+C:\Users\INROGUN\source\repos\PromotionEngine\PromotionEngineUI\obj\Debug\PromotionEngineUI.PromEngineUI.resources
+C:\Users\INROGUN\source\repos\PromotionEngine\PromotionEngineUI\obj\Debug\PromotionEngine.UI.Properties.Resources.resources
+C:\Users\INROGUN\source\repos\PromotionEngine\PromotionEngineUI\obj\Debug\PromotionEngine.UI.csproj.GenerateResource.cache
+C:\Users\INROGUN\source\repos\PromotionEngine\PromotionEngineUI\obj\Debug\PromotionEngine.UI.csproj.CoreCompileInputs.cache
+C:\Users\INROGUN\source\repos\PromotionEngine\PromotionEngineUI\obj\Debug\PromotionEngine.UI.exe
+C:\Users\INROGUN\source\repos\PromotionEngine\PromotionEngineUI\obj\Debug\PromotionEngine.UI.pdb
