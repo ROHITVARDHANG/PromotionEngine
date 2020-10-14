@@ -9,6 +9,6 @@ namespace PromotionEngine.Service.Interfaces
 {
     public interface IPromotion
     {
-        MyCart ApplyPromotion(MyCart cart);
+        MyCart CheckPromotion(MyCart cart);
     }
 }
