@@ -12,6 +12,16 @@ namespace PromotionEngine.Service.BusinessLogic
     {
 		public decimal FetchTotal(IEnumerable<Item> items, IEnumerable<IPromotion> promotions)
 		{
+            if (items.Any())
+            {
+                foreach (var item in items)
+                {
+                    if (item.Quantity == 0)
+                    {
+                        return item.Quantity;
+                    }
+                }
+            }
 			var cartItems = new MyCart(items.ToList(), 0);
 
 			foreach (var promotion in promotions)

@@ -41,6 +41,22 @@ namespace PromotionEngine.UnitTests
         }
 
         [TestMethod]
+        public void NoSelectedItemsTest()
+        {
+            //Arrange
+            var items = new List<Item>()
+            {
+                new Item(_products[0], 0)
+            };
+
+            // Act
+            var total = _costCalculationService.FetchTotal(items, _promotions);
+
+            //Assert
+            Assert.AreEqual(0, total);
+        }
+
+        [TestMethod]
         public void NoPromotionsSelectedTest()
         {
             //Arrange
