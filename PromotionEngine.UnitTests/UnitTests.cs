@@ -60,20 +60,24 @@ namespace PromotionEngine.UnitTests
             Assert.AreEqual(0, total);
         }
 
+        // Test case for not selecting any promotions and default with single item each of A, B, C
         [TestMethod]
         public void NoPromotionsSelectedTest()
         {
             //Arrange
             var items = new List<Item>()
             {
-                new Item(_products[0], 1)
+                 new Item(_products[0], 1),
+                 new Item(_products[1], 1),
+                 new Item(_products[2], 1),
+                
             };
 
             // Act
             var total = _costCalculationService.FetchTotal(items, _promotions);
 
             //Assert
-            Assert.AreEqual(50, total);
+            Assert.AreEqual(100, total);
         }
 
         public void WithoutPromotionsTest()
