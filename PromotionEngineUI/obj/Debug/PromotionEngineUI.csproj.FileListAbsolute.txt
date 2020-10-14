@@ -1,0 +1,10 @@
+C:\Users\INROGUN\source\repos\PromotionEngine\PromotionEngineUI\bin\Debug\PromotionEngineUI.exe.config
+C:\Users\INROGUN\source\repos\PromotionEngine\PromotionEngineUI\bin\Debug\PromotionEngineUI.exe
+C:\Users\INROGUN\source\repos\PromotionEngine\PromotionEngineUI\bin\Debug\PromotionEngineUI.pdb
+C:\Users\INROGUN\source\repos\PromotionEngine\PromotionEngineUI\obj\Debug\PromotionEngineUI.csprojAssemblyReference.cache
+C:\Users\INROGUN\source\repos\PromotionEngine\PromotionEngineUI\obj\Debug\PromotionEngineUI.PromEngineUI.resources
+C:\Users\INROGUN\source\repos\PromotionEngine\PromotionEngineUI\obj\Debug\PromotionEngineUI.Properties.Resources.resources
+C:\Users\INROGUN\source\repos\PromotionEngine\PromotionEngineUI\obj\Debug\PromotionEngineUI.csproj.GenerateResource.cache
+C:\Users\INROGUN\source\repos\PromotionEngine\PromotionEngineUI\obj\Debug\PromotionEngineUI.csproj.CoreCompileInputs.cache
+C:\Users\INROGUN\source\repos\PromotionEngine\PromotionEngineUI\obj\Debug\PromotionEngineUI.exe
+C:\Users\INROGUN\source\repos\PromotionEngine\PromotionEngineUI\obj\Debug\PromotionEngineUI.pdb
