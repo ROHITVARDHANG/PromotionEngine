@@ -44,7 +44,7 @@ namespace PromotionEngine.UnitTests
         [TestMethod]
         public void NoSelectedItemsTest()
         {
-            //Arrange
+            // Arrange
             var items = new List<Item>()
             {
                 new Item(_products[0], 0),
@@ -56,15 +56,16 @@ namespace PromotionEngine.UnitTests
             // Act
             var total = _costCalculationService.FetchTotal(items, _promotions);
 
-            //Assert
+            // Assert
             Assert.AreEqual(0, total);
         }
 
+        // SCENARIO : A
         // Test case for not selecting any promotions and default with single item each of A, B, C
         [TestMethod]
         public void NoPromotionsSelectedTest()
         {
-            //Arrange
+            // Arrange
             var items = new List<Item>()
             {
                  new Item(_products[0], 1),
@@ -76,10 +77,11 @@ namespace PromotionEngine.UnitTests
             // Act
             var total = _costCalculationService.FetchTotal(items, _promotions);
 
-            //Assert
+            // Assert
             Assert.AreEqual(100, total);
         }
 
+        [TestMethod]
         public void WithoutPromotionsTest()
         {
             //Arrange
@@ -94,22 +96,29 @@ namespace PromotionEngine.UnitTests
 
         }
 
+        // SCENARIO B
+        [TestMethod]
         public void BulkPromotionTest()
         {
-            //Arrange
+            // Arrange
             var items = new List<Item>()
             {
-                new Item(_products[2], 1)
+               new Item(_products[0], 5),
+                 new Item(_products[1], 5),
+                 new Item(_products[2], 1),
             };
 
-            //Act
+            // Act
+            var total = _costCalculationService.FetchTotal(items, _promotions);
 
-            //Assert
+            // Assert
+            Assert.AreEqual(370, total);
         }
 
+        [TestMethod]
         public void DuoPromotionTest()
         {
-            //Arrange
+            // Arrange
             var items = new List<Item>()
             {
                 new Item(_products[2], 1)
