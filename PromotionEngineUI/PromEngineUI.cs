@@ -47,7 +47,7 @@ namespace PromotionEngineUI
             };
 
             var total = _calculationService.FetchTotal(items, _promotions);
-            //lblResult.Text = total.ToString();
+            lblResult.Text = total.ToString();
         }
     }
 }
