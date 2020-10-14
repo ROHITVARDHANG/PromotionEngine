@@ -40,13 +40,17 @@ namespace PromotionEngine.UnitTests
             };
         }
 
+        // Test case for selecting 0 items in A and or not selecting any items
         [TestMethod]
         public void NoSelectedItemsTest()
         {
             //Arrange
             var items = new List<Item>()
             {
-                new Item(_products[0], 0)
+                new Item(_products[0], 0),
+                new Item(_products[1], 0),
+                new Item(_products[2], 0),
+                new Item(_products[3], 0)
             };
 
             // Act
