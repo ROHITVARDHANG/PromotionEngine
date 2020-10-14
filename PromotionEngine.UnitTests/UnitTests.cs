@@ -16,6 +16,9 @@ namespace PromotionEngine.UnitTests
 
         public UnitTests()
         {
+            _costCalculationService = new CostCalculationService();
+
+            // Mocking data for initial preparation with the values from A - D.
             var promA = new ProductDTO("A", 50);
             var promB = new ProductDTO("B", 30);
             var promC = new ProductDTO("C", 20);
@@ -28,9 +31,7 @@ namespace PromotionEngine.UnitTests
                 promC,
                 promD
             };
-
-            _costCalculationService = new CostCalculationService();
-
+            // promotions fixed as of now.
             _promotions = new List<IPromotion>
             {
                 new PromotionBulkService(new PromotionBulk("A", 3, 130)),
@@ -45,12 +46,14 @@ namespace PromotionEngine.UnitTests
             //Arrange
             var items = new List<Item>()
             {
-                new Item(_products[2], 1)
+                new Item(_products[0], 1)
             };
 
-            //Act
+            // Act
+            var total = _costCalculationService.FetchTotal(items, _promotions);
 
             //Assert
+            Assert.AreEqual(50, total);
         }
 
         public void WithoutPromotionsTest()

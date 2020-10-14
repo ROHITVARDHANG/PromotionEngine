@@ -10,10 +10,10 @@ namespace PromotionEngine.Service.BusinessLogic
 {
 	public class PromotionBulkService : IPromotion
 	{
-		public PromotionBulk PromotionBulk { get; set; }
+		public PromotionBulk PromotionBulk { get;  set; }
 		public PromotionBulkService(PromotionBulk promotionBulk)
 		{
-			PromotionBulk = PromotionBulk;
+			PromotionBulk = promotionBulk;
 		}
 
 		// Method to check the case where the selection of items is in bulk for A or B
