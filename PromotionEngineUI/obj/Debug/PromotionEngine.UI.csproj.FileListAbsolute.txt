@@ -7,3 +7,4 @@ C:\Users\INROGUN\source\repos\PromotionEngine\PromotionEngineUI\obj\Debug\Promot
 C:\Users\INROGUN\source\repos\PromotionEngine\PromotionEngineUI\obj\Debug\PromotionEngine.UI.csproj.CoreCompileInputs.cache
 C:\Users\INROGUN\source\repos\PromotionEngine\PromotionEngineUI\obj\Debug\PromotionEngine.UI.exe
 C:\Users\INROGUN\source\repos\PromotionEngine\PromotionEngineUI\obj\Debug\PromotionEngine.UI.pdb
+C:\Users\INROGUN\source\repos\PromotionEngine\PromotionEngineUI\obj\Debug\PromotionEngine.UI.csprojAssemblyReference.cache

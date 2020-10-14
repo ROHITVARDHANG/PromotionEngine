@@ -1,0 +1,17 @@
+C:\Users\INROGUN\source\repos\PromotionEngine\PromotionEngine.UnitTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\INROGUN\source\repos\PromotionEngine\PromotionEngine.UnitTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\INROGUN\source\repos\PromotionEngine\PromotionEngine.UnitTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\INROGUN\source\repos\PromotionEngine\PromotionEngine.UnitTests\bin\Debug\PromotionEngine.UnitTests.dll
+C:\Users\INROGUN\source\repos\PromotionEngine\PromotionEngine.UnitTests\bin\Debug\PromotionEngine.UnitTests.pdb
+C:\Users\INROGUN\source\repos\PromotionEngine\PromotionEngine.UnitTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\INROGUN\source\repos\PromotionEngine\PromotionEngine.UnitTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\INROGUN\source\repos\PromotionEngine\PromotionEngine.UnitTests\bin\Debug\PromotionEngine.Service.dll
+C:\Users\INROGUN\source\repos\PromotionEngine\PromotionEngine.UnitTests\bin\Debug\PromotionEngine.Service.pdb
+C:\Users\INROGUN\source\repos\PromotionEngine\PromotionEngine.UnitTests\bin\Debug\PromotionEngine.Service.dll.config
+C:\Users\INROGUN\source\repos\PromotionEngine\PromotionEngine.UnitTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\INROGUN\source\repos\PromotionEngine\PromotionEngine.UnitTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\INROGUN\source\repos\PromotionEngine\PromotionEngine.UnitTests\obj\Debug\PromotionEngine.UnitTests.csprojAssemblyReference.cache
+C:\Users\INROGUN\source\repos\PromotionEngine\PromotionEngine.UnitTests\obj\Debug\PromotionEngine.UnitTests.csproj.CoreCompileInputs.cache
+C:\Users\INROGUN\source\repos\PromotionEngine\PromotionEngine.UnitTests\obj\Debug\PromotionEngine.UnitTests.csproj.CopyComplete
+C:\Users\INROGUN\source\repos\PromotionEngine\PromotionEngine.UnitTests\obj\Debug\PromotionEngine.UnitTests.dll
+C:\Users\INROGUN\source\repos\PromotionEngine\PromotionEngine.UnitTests\obj\Debug\PromotionEngine.UnitTests.pdb
