@@ -44,13 +44,24 @@ namespace PromotionEngineUI
             decimal c = numericC.Value;
             decimal d = numericD.Value;
 
-            var items = new List<Item>()
+            var items = new List<Item>();
+
+            if (a > 0)
             {
-                new Item(_products[0], a),
-                new Item(_products[1], b),
-                new Item(_products[2], c),
-                new Item(_products[3], d)
-            };
+                items.Add(new Item(_products[0], a));
+            }
+            if (b > 0)
+            {
+                items.Add(new Item(_products[0], b));
+            }
+            if (c > 0)
+            {
+                items.Add(new Item(_products[0], c));
+            }
+            if (d > 0)
+            {
+                items.Add(new Item(_products[0], d));
+            }
 
             _promotions = new List<IPromotion>
             {

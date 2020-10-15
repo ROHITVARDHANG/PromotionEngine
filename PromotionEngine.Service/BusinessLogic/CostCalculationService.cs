@@ -10,28 +10,28 @@ namespace PromotionEngine.Service.BusinessLogic
 {
     public class CostCalculationService : ICostCalculationService
     {
-		public decimal FetchTotal(IEnumerable<Item> items, IEnumerable<IPromotion> promotions)
-		{
-            if (items.Any())
+        // Method for initiating the logic for calculation of the total
+        public decimal FetchTotal(IEnumerable<Item> items, IEnumerable<IPromotion> promotions)
+        {
+            foreach (var item in items)
             {
-                foreach (var item in items)
+                if (item.Quantity != 0)
                 {
-                    if (item.Quantity == 0)
-                    {
-                        return item.Quantity;
-                    }
+                    break;
                 }
+                return 0;
             }
-			var cartItems = new MyCart(items.ToList(), 0);
 
-			foreach (var promotion in promotions)
-			{
-				cartItems = promotion.CheckPromotion(cartItems);
-			}
+            var cartItems = new MyCart(items.ToList(), 0);
 
-			decimal balance = cartItems.TotalItems.Any() ? cartItems.TotalItems.Sum(x => x.Product.Price) : 0;
+            foreach (var promotion in promotions)
+            {
+                cartItems = promotion.CheckPromotion(cartItems);
+            }
 
-			return cartItems.Price + balance;
-		}
-	}
+            decimal balance = cartItems.TotalItems.Any() ? cartItems.TotalItems.Sum(x => x.Product.Price) : 0;
+
+            return cartItems.Price + balance;
+        }
+    }
 }
