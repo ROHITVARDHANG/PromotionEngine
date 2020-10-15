@@ -52,15 +52,15 @@ namespace PromotionEngineUI
             }
             if (b > 0)
             {
-                items.Add(new Item(_products[0], b));
+                items.Add(new Item(_products[1], b));
             }
             if (c > 0)
             {
-                items.Add(new Item(_products[0], c));
+                items.Add(new Item(_products[2], c));
             }
             if (d > 0)
             {
-                items.Add(new Item(_products[0], d));
+                items.Add(new Item(_products[3], d));
             }
 
             _promotions = new List<IPromotion>
