@@ -19,6 +19,7 @@ namespace PromotionEngineUI
         private readonly ICostCalculationService _costCalculationService;
         public IEnumerable<IPromotion> _promotions;
 
+        // Constructor method to initiate the webform
         public PromEngineUI()
         {
             InitializeComponent();
@@ -39,12 +40,11 @@ namespace PromotionEngineUI
 
         private void btnCalculate_Click(object sender, EventArgs e)
         {
+            var items = new List<Item>();
             decimal a = numericA.Value;
             decimal b = numericB.Value;
             decimal c = numericC.Value;
             decimal d = numericD.Value;
-
-            var items = new List<Item>();
 
             if (a > 0)
             {
@@ -70,6 +70,7 @@ namespace PromotionEngineUI
                 new PromotionDuoService(new PromotionDuo(new List<string>{"C","D"}, 30))
             };
 
+            //Total order value is calculated below.
             var total = _costCalculationService.FetchTotal(items, _promotions);
             label1.Text = total.ToString();
         }
